@@ -1,0 +1,60 @@
+
+
+$primary-color: #ff9300;
+$secondary-color: #73d2ed;
+$black-color: #000000;
+$white-color: #FFFFFF;
+
+
+body{
+    overflow: hidden;
+    overflow-y: auto;
+    font-family: "Lato", sans-serif;
+
+}
+
+h1, h2, h3, h4, p, figure, li{
+    margin: 0
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+.user-actions-links{
+    i{
+        color: $black-color; 
+        font-size: 30px;
+    }
+    div{
+        color: $black-color;
+        font-size: 0.7rem;
+        p{
+            font-weight: bold;
+        }
+    }
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: var(--bs-navbar-nav-link-padding-x);
+    padding-left: var(--bs-navbar-nav-link-padding-x);
+
+}
+
+
+    
