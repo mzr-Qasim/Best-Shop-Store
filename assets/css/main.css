@@ -12189,6 +12189,12 @@ a {
     display: flex;
     justify-content: center;
   }
+  .search-input {
+    width: 180px;
+  }
+  .categories-dropdown {
+    display: none;
+  }
   .main-nav-logo {
     display: block !important;
   }
