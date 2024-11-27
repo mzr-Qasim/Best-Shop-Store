@@ -113,6 +113,22 @@
 }
 
 
+.count-badge-mobile{
+    margin-left: 0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15px;
+    height: 15px;
+    background-color: $primary-color;
+    color: $white-color !important;
+    border: 1px solid $primary-color;
+    border-radius: 50%;
+    font-size: 0.5rem
+
+}
+
+
 
 
 

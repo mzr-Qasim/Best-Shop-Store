@@ -6,23 +6,31 @@
         width: 200px;
     
     } 
+
+
+}
+
+
+@media (max-width:768px){
+    .md-none{
+        margin-left: 0!important;
+        display: none;
+    }
     li.user-ham-links{
         display: block!important;
     }
 }
 
 
-@media (max-width:768px){
-    .md-none{
-        margin-left: 0!;
+@media (max-width:576px){
+    .main-logo{
         display: none;
     }
+    .search-bar-nav{
+        display: flex; 
+        justify-content: center;
+    }
+    .main-nav-logo{
+        display: block!important;
+    }
 }
-
-
-// @media (max-width:576px){
-//     .sm-media{
-//         flex-direction: column;
-//         justify-content: center !important;
-//     }
-// }

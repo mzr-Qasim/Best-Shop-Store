@@ -12150,6 +12150,20 @@ a {
   border-radius: 50%;
 }
 
+.count-badge-mobile {
+  margin-left: 0.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15px;
+  height: 15px;
+  background-color: #ff9300;
+  color: #FFFFFF !important;
+  border: 1px solid #ff9300;
+  border-radius: 50%;
+  font-size: 0.5rem;
+}
+
 @media (max-width: 992px) {
   .lg-none {
     display: none;
@@ -12160,7 +12174,22 @@ a {
 }
 @media (max-width: 768px) {
   .md-none {
-    margin-left: 0;
+    margin-left: 0 !important;
     display: none;
+  }
+  li.user-ham-links {
+    display: block !important;
+  }
+}
+@media (max-width: 576px) {
+  .main-logo {
+    display: none;
+  }
+  .search-bar-nav {
+    display: flex;
+    justify-content: center;
+  }
+  .main-nav-logo {
+    display: block !important;
   }
 }/*# sourceMappingURL=main.css.map */
