@@ -12065,6 +12065,14 @@ a {
   padding-left: var(--bs-navbar-nav-link-padding-x);
 }
 
+.logo-style {
+  color: #ff9300;
+  font-weight: bolder;
+}
+.logo-style span {
+  color: #000000;
+}
+
 .info-bar {
   display: flex;
   justify-content: space-between;

@@ -58,3 +58,11 @@ a{
 
 
     
+.logo-style{
+    color:$primary-color;
+    font-weight: bolder;
+    span{
+        color: $black-color;
+    }
+}
+
