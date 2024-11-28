@@ -6,6 +6,17 @@
         width: 200px;
     
     } 
+    .main-nav{
+        background-color: transparent;
+    
+        ul.navbar-nav{
+            li.nav-item{
+                a.nav-link{
+                    color: $black-color;
+                }
+            }
+        }
+    }
 
 
 }
@@ -19,6 +30,16 @@
     li.user-ham-links{
         display: block!important;
     }
+
+    .main-hero-section{
+        figure{
+            figcaption{
+                padding-left: 1rem;
+            }
+        }
+    }
+
+
 }
 
 
@@ -44,4 +65,22 @@
         display: flex!important;
         justify-content: center;
     }
+    .main-nav{
+        background-color: $black-color;
+    
+        ul.navbar-nav{
+            li.nav-item{
+                a.nav-link{
+                    color: $white-color
+                }
+            }
+        }
+    }
+    .logo-style{
+        span{
+            color: $white-color;
+        }
+    }
+
+
 }

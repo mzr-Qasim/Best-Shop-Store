@@ -5,6 +5,7 @@ $secondary-color: #73d2ed;
 $black-color: #000000;
 $white-color: #FFFFFF;
 
+$section-space: 2rem;
 
 body{
     overflow: hidden;
@@ -59,7 +60,7 @@ a{
 
     
 .logo-style{
-    color:$primary-color;
+    color:$primary-color!important;
     font-weight: bolder;
     span{
         color: $black-color;
@@ -68,3 +69,9 @@ a{
 
 
 
+.main-button-primary{
+    display: inline-block;
+    border: 1px solid $black-color;
+    border-radius: 20px ;
+    color: $white-color;
+}

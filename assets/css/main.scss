@@ -129,17 +129,94 @@
 }
 
 
+.main-nav{
+    background-color: $black-color;
+    margin-bottom: $section-space;
+
+    ul.navbar-nav{
+        li.nav-item{
+            a.nav-link{
+                color: $white-color;
+                font-weight: bold;
+                font-size: 0.8rem;
+            }
+        }
+    }
+}
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+.main-hero-section{
+
+    figure{
+        position: relative;
+        width: 100%;
+        height: 400px;
+
+        img{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        figcaption{
+            text-align: left;
+            position: absolute;
+            z-index: 1;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            width: 100%;
+            padding-left: 6rem;
+            
+            h1{
+                color: $white-color;
+                font-size: calc(1.8rem + .25vw);
+                font-weight: bold;         
+                margin-bottom: 1rem;
+            }
+            p{
+                color: $white-color;
+                font-size: calc(1rem + .25vw);
+                margin-bottom: 2rem;
+            
+            }
+            
+        }
+    }
+}
 
 
 
 
 
-
-
-
-
-
-
+.main-hero-carousel-button{
+    padding: 0.3rem 0.8rem;
+    background-color: $black-color;
+    color: $white-color;
+    font-size: calc(0.8rem + .25vw);
+    font-weight: bold;
+}
 
 
 

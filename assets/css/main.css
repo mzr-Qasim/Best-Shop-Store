@@ -12066,11 +12066,18 @@ a {
 }
 
 .logo-style {
-  color: #ff9300;
+  color: #ff9300 !important;
   font-weight: bolder;
 }
 .logo-style span {
   color: #000000;
+}
+
+.main-button-primary {
+  display: inline-block;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  color: #FFFFFF;
 }
 
 .info-bar {
@@ -12172,12 +12179,92 @@ a {
   font-size: 0.5rem;
 }
 
+.main-nav {
+  background-color: #000000;
+  margin-bottom: 2rem;
+}
+.main-nav ul.navbar-nav li.nav-item a.nav-link {
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.main-hero-section figure {
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+.main-hero-section figure img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main-hero-section figure figcaption {
+  text-align: left;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  padding-left: 6rem;
+}
+.main-hero-section figure figcaption h1, .main-hero-section figure figcaption .h1 {
+  color: #FFFFFF;
+  font-size: calc(1.8rem + 0.25vw);
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.main-hero-section figure figcaption p {
+  color: #FFFFFF;
+  font-size: calc(1rem + 0.25vw);
+  margin-bottom: 2rem;
+}
+
+.main-hero-carousel-button {
+  padding: 0.3rem 0.8rem;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-size: calc(0.8rem + 0.25vw);
+  font-weight: bold;
+}
+
 @media (max-width: 992px) {
   .lg-none {
     display: none;
   }
   .search-input {
     width: 200px;
+  }
+  .main-nav {
+    background-color: transparent;
+  }
+  .main-nav ul.navbar-nav li.nav-item a.nav-link {
+    color: #000000;
   }
 }
 @media (max-width: 768px) {
@@ -12187,6 +12274,9 @@ a {
   }
   li.user-ham-links {
     display: block !important;
+  }
+  .main-hero-section figure figcaption {
+    padding-left: 1rem;
   }
 }
 @media (max-width: 576px) {
@@ -12209,5 +12299,14 @@ a {
     margin-top: 1rem;
     display: flex !important;
     justify-content: center;
+  }
+  .main-nav {
+    background-color: #000000;
+  }
+  .main-nav ul.navbar-nav li.nav-item a.nav-link {
+    color: #FFFFFF;
+  }
+  .logo-style span {
+    color: #FFFFFF;
   }
 }/*# sourceMappingURL=main.css.map */
