@@ -12194,8 +12194,7 @@ a {
     display: none;
   }
   .search-bar-nav {
-    display: flex;
-    justify-content: center;
+    display: none;
   }
   .search-input {
     width: 180px;
@@ -12204,6 +12203,9 @@ a {
     display: none;
   }
   .main-nav-logo {
+    display: block !important;
+  }
+  .search-box-sm {
     display: block !important;
   }
 }/*# sourceMappingURL=main.css.map */
