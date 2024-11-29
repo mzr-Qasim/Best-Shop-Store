@@ -2,10 +2,17 @@
 
 $primary-color: #ff9300;
 $secondary-color: #73d2ed;
+$border-color: #ebebeb;
 $black-color: #000000;
 $white-color: #FFFFFF;
 
 $section-space: 2rem;
+$section-space-large: 4rem;
+
+$border-style: 2px solid $border-color;
+
+$small-border-style: 1px solid $border-color;
+
 
 body{
     overflow: hidden;
@@ -30,7 +37,9 @@ a{
 
 
 
-
+.border-theme-style{
+    border: 2px solid $border-color !important;
+}
 
 
 
@@ -74,4 +83,28 @@ a{
     border: 1px solid $black-color;
     border-radius: 20px ;
     color: $white-color;
+}
+
+
+.custom-next-btn:after {
+    content: "\e90b";  
+    font-family: 'IcoMoon'; 
+    font-size: 2rem;
+    color: $white-color; 
+  }
+
+.custom-prev-btn:after {
+  content: "\e90a";  
+  font-family: 'IcoMoon'; 
+  font-size: 2rem;
+  color: grey; 
+}
+
+.swiper-pagination-bullet-active {
+    background: $primary-color!important;
+}
+
+.swiper-pagination-bullet {
+    background: $white-color;
+    opacity: 1!important;
 }
