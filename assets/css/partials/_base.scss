@@ -6,6 +6,7 @@ $border-color: #ebebeb;
 $black-color: #000000;
 $white-color: #FFFFFF;
 
+$section-space-half: 1rem;
 $section-space: 2rem;
 $section-space-large: 4rem;
 
@@ -87,17 +88,21 @@ a{
 
 
 .custom-next-btn:after {
-    content: "\e90b";  
+    content: "\e90d";
     font-family: 'IcoMoon'; 
     font-size: 2rem;
     color: $white-color; 
+    border-radius: 50%;
+    background-color: $black-color;
   }
 
 .custom-prev-btn:after {
-  content: "\e90a";  
-  font-family: 'IcoMoon'; 
-  font-size: 2rem;
-  color: grey; 
+    content: "\e90c"; 
+    font-family: 'IcoMoon'; 
+    font-size: 2rem;
+    color: $white-color; 
+    border-radius: 50%;
+    background-color: grey;
 }
 
 .swiper-pagination-bullet-active {
@@ -108,3 +113,18 @@ a{
     background: $white-color;
     opacity: 1!important;
 }
+
+
+
+
+
+.product-cat-next,
+.product-cat-prev {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 100;
+}
+
