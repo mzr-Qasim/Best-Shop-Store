@@ -34,7 +34,7 @@
     .main-hero-section{
         figure{
             figcaption{
-                padding-left: 1rem;
+                padding-left: 3rem;
             }
         }
     }
@@ -79,6 +79,13 @@
     .logo-style{
         span{
             color: $white-color;
+        }
+    }
+    .main-hero-section{
+        figure{
+            figcaption{
+                padding: 0 3rem;
+            }
         }
     }
 
