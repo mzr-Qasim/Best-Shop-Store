@@ -16,7 +16,6 @@ var swiper = new Swiper(".mySwiper", {
 
 var swiper = new Swiper(".mySwiper-2", {
   loop: false,
-  slidesPerView: 2,
   spaceBetween: 10,
   navigation: {
     nextEl: ".swiper-button-next",
@@ -38,6 +37,10 @@ var swiper = new Swiper(".mySwiper-2", {
     567: {
       slidesPerView: 2,
       spaceBetween: 10,
+    },
+    400: {
+      slidesPerView: 1,
+      spaceBetween: 0,
     },
   },
 
