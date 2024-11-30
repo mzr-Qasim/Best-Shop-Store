@@ -5,6 +5,8 @@ $secondary-color: #73d2ed;
 $border-color: #ebebeb;
 $black-color: #000000;
 $white-color: #FFFFFF;
+$grey-color: #808080;
+$red-color: #FF0000;
 
 $section-space-half: 1rem;
 $section-space: 2rem;
@@ -18,7 +20,7 @@ $small-border-style: 1px solid $border-color;
 body{
     overflow: hidden;
     overflow-y: auto;
-    font-family: "Lato", sans-serif;
+    font-family: "Roboto", sans-serif;
 
 }
 
@@ -81,9 +83,10 @@ a{
 
 .main-button-primary{
     display: inline-block;
-    border: 1px solid $black-color;
+    padding: 0.2rem 1rem;
     border-radius: 20px ;
     color: $white-color;
+    background-color: $primary-color;
 }
 
 
@@ -147,5 +150,12 @@ a{
         background-color: $primary-color;
         bottom: -2px;
         transform: translate(-50%,-50%)
+    }
+}
+
+.rating-icon-style{
+    i{
+        font-size: 0.7rem;
+        color: $primary-color;
     }
 }

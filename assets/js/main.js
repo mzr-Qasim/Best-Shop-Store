@@ -41,3 +41,27 @@ var swiper = new Swiper(".mySwiper-2", {
   },
 
 });
+
+
+
+var swiper = new Swiper(".mySwiper-3", {
+  // slidesPerView: 6,
+  loop:true,
+  spaceBetween: 10,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  breakpoints: {
+    992: {
+      slidesPerView: 1,
+    },
+    
+    1200: {
+      slidesPerView: 2,
+    },
+
+
+  },
+
+});
