@@ -336,6 +336,15 @@ ul.main-hero-section-features-inner{
 }
 
 
+.product-details{
+    a{
+        color: $black-color;
+        &:hover{
+            color: $primary-color;
+        }
+    }
+}
+
 
   
 .price{
@@ -380,7 +389,44 @@ ul.main-hero-section-features-inner{
 
 .available-bar::-webkit-progress-value {
     background: #ff9e2c;
-  }
+}
+
+
+.sale-counter{
+    padding-top: $section-space;
+    p{
+        color: $red-color;
+        padding-bottom: 0.5rem;
+    }
+    ul.counter-inner{
+        display: flex;
+        li{
+            .counter-part{
+                text-align: center;
+            }
+            &:not(:first-child){
+                margin-left: 1rem ;
+            }
+            .counter-content{
+                display: inline-flex;
+                background-color: $border-color;
+                width: 3rem;
+                height: 3rem;
+                align-items: center;
+                justify-content: center;
+                font-weight: bold;
+            }
+            small{
+                padding-top: 0.5rem;
+                display: block;
+                font-weight: 500;
+            }
+
+
+        }
+    }
+}
+
   
 
 

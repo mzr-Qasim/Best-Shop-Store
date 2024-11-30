@@ -12420,6 +12420,13 @@ ul.main-hero-section-features-inner li .content p {
   opacity: 0.3;
 }
 
+.product-details a {
+  color: #000000;
+}
+.product-details a:hover {
+  color: #ff9300;
+}
+
 .price {
   padding-bottom: 1rem;
 }
@@ -12458,6 +12465,37 @@ ul.main-hero-section-features-inner li .content p {
 
 .available-bar::-webkit-progress-value {
   background: #ff9e2c;
+}
+
+.sale-counter {
+  padding-top: 2rem;
+}
+.sale-counter p {
+  color: #FF0000;
+  padding-bottom: 0.5rem;
+}
+.sale-counter ul.counter-inner {
+  display: flex;
+}
+.sale-counter ul.counter-inner li .counter-part {
+  text-align: center;
+}
+.sale-counter ul.counter-inner li:not(:first-child) {
+  margin-left: 1rem;
+}
+.sale-counter ul.counter-inner li .counter-content {
+  display: inline-flex;
+  background-color: #ebebeb;
+  width: 3rem;
+  height: 3rem;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+.sale-counter ul.counter-inner li small, .sale-counter ul.counter-inner li .small {
+  padding-top: 0.5rem;
+  display: block;
+  font-weight: 500;
 }
 
 @media (max-width: 992px) {
