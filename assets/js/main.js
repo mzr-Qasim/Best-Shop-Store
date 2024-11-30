@@ -15,25 +15,26 @@ var swiper = new Swiper(".mySwiper", {
 
 
 var swiper = new Swiper(".mySwiper-2", {
-  slidesPerView: 2,
-  loop:false,
-  // spaceBetween: 20,
+  // slidesPerView: 6,
+  loop:true,
+  spaceBetween: 10,
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
   breakpoints: {
-    1200: {
-      slidesPerView: 6,
-      spaceBetween: 10,
-    },
-    992: {
-      slidesPerView: 4,
-      spaceBetween: 10,
+    350: {
+      slidesPerView: 2,
     },
     768: {
       slidesPerView: 3,
-      spaceBetween: 10,
+    },
+    992: {
+      slidesPerView: 4,
+    },
+    
+    1200: {
+      slidesPerView: 6,
     },
 
 

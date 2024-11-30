@@ -272,33 +272,6 @@ ul.main-hero-section-features-inner{
 }
 
 
-
-.popular-categories{
-    .title{
-        position: relative;
-        margin-bottom: $section-space;
-        text-align: center;
-        border-bottom: $small-border-style;
-        padding-bottom: 1rem;
-
-        h2{
-            font-size: 1.5rem;
-            font-weight: bold;
-        }
-
-        .title-style{
-            position: absolute;
-            display: inline-block;
-            width: 4rem;
-            height: 2px;
-            background-color: $primary-color;
-            bottom: -2px;
-            transform: translate(-50%,-50%)
-        }
-    }
-}
-
-
 .popular-categories-carousel{
     margin-bottom: $section-space-half;
     .swiper-slide{
@@ -307,8 +280,6 @@ ul.main-hero-section-features-inner{
             color: $black-color;
             font-weight: bold;
             figure{
-                width: 170px;
-                aspect-ratio: 1/1;
                 transition: box-shadow 0.3s ease;
                 img{
                     width: 100%;
@@ -332,6 +303,7 @@ ul.main-hero-section-features-inner{
 }
 
 .popular-categories-bottom-title{
+    margin-bottom: $section-space-large;
     text-align: center;
     background-color: $primary-color;
     color: $white-color;

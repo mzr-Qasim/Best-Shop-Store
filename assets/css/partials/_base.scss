@@ -128,3 +128,24 @@ a{
   z-index: 100;
 }
 
+
+.section-title-theme{
+    position: relative;
+    margin-bottom: $section-space;
+    text-align: center;
+    border-bottom: $small-border-style;
+    padding-bottom: 1rem;
+    h2{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .title-style{
+        position: absolute;
+        display: inline-block;
+        width: 4rem;
+        height: 2px;
+        background-color: $primary-color;
+        bottom: -2px;
+        transform: translate(-50%,-50%)
+    }
+}
