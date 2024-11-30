@@ -338,24 +338,51 @@ ul.main-hero-section-features-inner{
 
 
   
-
 .price{
+    padding-bottom: 1rem;
     .original-price{
-        font-size: 1.2em;
+        font-size: 1em;
         color: $grey-color; 
         text-decoration: line-through;
     }
-
     span{
         padding-left: 0.5rem;
     }
     .sale-price{
-
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         color: $red-color;
     }
     
 }
+
+
+.availablity{
+    .stock{
+        display: flex; 
+        justify-content: space-between;
+        small{
+            font-weight: 600;
+            span{
+                color: $red-color;
+            }
+        }
+    }
+    progress, progress[role] {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border: none;
+        background-size: auto;
+        height: 0.5rem;
+        width: 100%;
+    }
+}
+
+.available-bar::-webkit-progress-value {
+    background: #ff9e2c;
+  }
+  
+
 
 
 

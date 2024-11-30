@@ -12420,8 +12420,11 @@ ul.main-hero-section-features-inner li .content p {
   opacity: 0.3;
 }
 
+.price {
+  padding-bottom: 1rem;
+}
 .price .original-price {
-  font-size: 1.2em;
+  font-size: 1em;
   color: #808080;
   text-decoration: line-through;
 }
@@ -12429,8 +12432,32 @@ ul.main-hero-section-features-inner li .content p {
   padding-left: 0.5rem;
 }
 .price .sale-price {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: #FF0000;
+}
+
+.availablity .stock {
+  display: flex;
+  justify-content: space-between;
+}
+.availablity .stock small, .availablity .stock .small {
+  font-weight: 600;
+}
+.availablity .stock small span, .availablity .stock .small span {
+  color: #FF0000;
+}
+.availablity progress, .availablity progress[role] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  background-size: auto;
+  height: 0.5rem;
+  width: 100%;
+}
+
+.available-bar::-webkit-progress-value {
+  background: #ff9e2c;
 }
 
 @media (max-width: 992px) {
