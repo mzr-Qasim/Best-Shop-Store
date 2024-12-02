@@ -313,6 +313,7 @@ ul.main-hero-section-features-inner{
 
 
 .deals-of-day-carousel{
+    margin-bottom: $section-space;
     .swiper-slide{
         figure{
             position: relative;
@@ -388,7 +389,7 @@ ul.main-hero-section-features-inner{
 }
 
 .available-bar::-webkit-progress-value {
-    background: #ff9e2c;
+    background: $primary-color;
 }
 
 
@@ -427,7 +428,19 @@ ul.main-hero-section-features-inner{
     }
 }
 
+.mySwiper-3 .swiper-pagination-bullet {
+    background: $grey-color;
+}
+
+.mySwiper-3 .swiper-pagination {
+    position: static;
+    padding-top: 1rem;
+}
   
+
+
+
+
 
 
 

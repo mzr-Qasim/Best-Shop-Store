@@ -12402,6 +12402,9 @@ ul.main-hero-section-features-inner li .content p {
   border-radius: 5px;
 }
 
+.deals-of-day-carousel {
+  margin-bottom: 2rem;
+}
 .deals-of-day-carousel .swiper-slide figure {
   position: relative;
 }
@@ -12464,7 +12467,7 @@ ul.main-hero-section-features-inner li .content p {
 }
 
 .available-bar::-webkit-progress-value {
-  background: #ff9e2c;
+  background: #ff9300;
 }
 
 .sale-counter {
@@ -12496,6 +12499,15 @@ ul.main-hero-section-features-inner li .content p {
   padding-top: 0.5rem;
   display: block;
   font-weight: 500;
+}
+
+.mySwiper-3 .swiper-pagination-bullet {
+  background: #808080;
+}
+
+.mySwiper-3 .swiper-pagination {
+  position: static;
+  padding-top: 1rem;
 }
 
 @media (max-width: 992px) {
