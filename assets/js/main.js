@@ -161,3 +161,35 @@ var swiper = new Swiper(".mySwiper-3", {
         //seconds
       }, 0)
 }());
+
+
+
+
+
+var swiper = new Swiper(".mySwiper-4", {
+  // slidesPerView: 6,
+  loop:true,
+  spaceBetween: 10,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  breakpoints: {
+    350: {
+      slidesPerView: 2,
+    },
+    768: {
+      slidesPerView: 3,
+    },
+    992: {
+      slidesPerView: 4,
+    },
+    
+    1200: {
+      slidesPerView: 6,
+    },
+
+
+  },
+
+});

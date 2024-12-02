@@ -479,6 +479,41 @@ ul.main-hero-section-features-inner{
 
 
 
+.featured-products-carousel{
+    margin-bottom: $section-space-half;
+    .swiper-slide{
+        margin-bottom: $section-space-half;
+            figure{
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+                figcaption{
+                    padding: 1rem 0;
+                    text-align: center;
+                    background-color: $white-color;
+                    p.price{
+                        color: $red-color;
+                    }
+                    a{
+                        border: 1px solid $border-color;
+                        background-color: $white-color;
+                        color: $black-color;
+                    }
+                }
+            }
+            &:hover{
+                color: $primary-color;
+
+            }
+        }
+}
+
+
+
+
+
 
 
 
