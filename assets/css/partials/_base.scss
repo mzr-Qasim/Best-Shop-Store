@@ -2,6 +2,7 @@
 
 $primary-color: #ff9300;
 $secondary-color: #73d2ed;
+$theme-color: #eff7f5;
 $border-color: #ebebeb;
 $black-color: #000000;
 $white-color: #FFFFFF;
@@ -105,7 +106,7 @@ a{
     font-size: 2rem;
     color: $white-color; 
     border-radius: 50%;
-    background-color: grey;
+    background-color: rgba($black-color, 0.5); /* Black with 50% opacity */
 }
 
 .swiper-pagination-bullet-active {

@@ -1,9 +1,9 @@
 var swiper = new Swiper(".mySwiper", {
     loop: true,
-    // autoplay: {
-    //   delay: 4000,
-    //   disableOnInteraction: false,
-    // },
+    autoplay: {
+      delay: 4000,
+      disableOnInteraction: false,
+    },
     pagination: {
         el: ".swiper-pagination",
       },
@@ -47,6 +47,10 @@ var swiper = new Swiper(".mySwiper-2", {
 var swiper = new Swiper(".mySwiper-3", {
   // slidesPerView: 6,
   loop:true,
+   autoplay: {
+    delay: 4000,
+    disableOnInteraction: true,
+  },
   spaceBetween: 10,
   pagination: {
     el: ".swiper-pagination",

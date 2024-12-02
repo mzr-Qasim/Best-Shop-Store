@@ -2,8 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @font-face {
   font-family: "icomoon";
-  src: url("fonts/icomoon.eot?q9980e");
-  src: url("fonts/icomoon.eot?q9980e#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?q9980e") format("truetype"), url("fonts/icomoon.woff?q9980e") format("woff"), url("fonts/icomoon.svg?q9980e#icomoon") format("svg");
+  src: url("fonts/icomoon.eot?lsstpq");
+  src: url("fonts/icomoon.eot?lsstpq#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?lsstpq") format("truetype"), url("fonts/icomoon.woff?lsstpq") format("woff"), url("fonts/icomoon.svg?lsstpq#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -20,6 +20,26 @@
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cart2:before {
+  content: "\e912";
+}
+
+.icon-heart-fill:before {
+  content: "\e90e";
+}
+
+.icon-gift-fill:before {
+  content: "\e90f";
+}
+
+.icon-search:before {
+  content: "\e910";
+}
+
+.icon-shuffle:before {
+  content: "\e911";
 }
 
 .icon-arrow-left-short:before {
@@ -12116,7 +12136,7 @@ a {
   font-size: 2rem;
   color: #FFFFFF;
   border-radius: 50%;
-  background-color: grey;
+  background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
 }
 
 .swiper-pagination-bullet-active {
@@ -12194,6 +12214,10 @@ a {
 }
 .info-list-dropdown img {
   width: 20px;
+}
+
+.search-bar-nav {
+  margin-bottom: 1rem;
 }
 
 .search-input {
@@ -12280,6 +12304,7 @@ a {
   position: relative;
   width: 100%;
   height: 400px;
+  background-color: #eff7f5;
 }
 .main-hero-section figure img {
   position: absolute;
@@ -12324,7 +12349,7 @@ a {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
   z-index: 1;
 }
 
@@ -12414,13 +12439,42 @@ ul.main-hero-section-features-inner li .content p {
   -o-object-fit: cover;
      object-fit: cover;
 }
-.deals-of-day-carousel .swiper-slide figure figcaption {
+.deals-of-day-carousel .swiper-slide figure figcaption .off-price {
   position: absolute;
   top: 0;
   right: 0;
 }
+.deals-of-day-carousel .swiper-slide figure figcaption .hover-actions {
+  display: none;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.deals-of-day-carousel .swiper-slide figure figcaption .hover-actions a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: #808080;
+  color: #FFFFFF;
+}
+.deals-of-day-carousel .swiper-slide figure figcaption .hover-actions a:not(:first-child) {
+  margin-left: 1rem;
+}
+.deals-of-day-carousel .swiper-slide figure figcaption .hover-actions a:hover {
+  background-color: #ff9300;
+}
 .deals-of-day-carousel .swiper-slide:hover img {
   opacity: 0.3;
+}
+.deals-of-day-carousel .swiper-slide:hover .hover-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .product-details a {
