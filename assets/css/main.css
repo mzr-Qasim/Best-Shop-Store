@@ -12088,6 +12088,10 @@ a {
   border: 2px solid #ebebeb !important;
 }
 
+.border-theme-small-style {
+  border: 1px solid #ebebeb !important;
+}
+
 .user-actions-links i {
   color: #000000;
   font-size: 30px;
@@ -12366,7 +12370,7 @@ ul.main-hero-section-features-inner li {
   padding: 1rem 0;
 }
 ul.main-hero-section-features-inner li:not(:last-child) {
-  border-right: 2px solid #ebebeb;
+  border-right: 1px solid #ebebeb;
 }
 ul.main-hero-section-features-inner li .content {
   width: 100%;
@@ -12564,6 +12568,47 @@ ul.main-hero-section-features-inner li .content p {
   padding-top: 1rem;
 }
 
+.latest-products-section {
+  margin-bottom: 4rem;
+}
+.latest-products-section .top-content {
+  height: 50%;
+  margin-bottom: 2rem;
+}
+.latest-products-section .top-content figure {
+  width: 100%;
+  aspect-ratio: 1/0.5;
+  background-color: #eff7f5;
+}
+.latest-products-section .top-content figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.latest-products-section .bottom-content {
+  height: 50%;
+}
+.latest-products-section .bottom-content figure {
+  width: 100%;
+  aspect-ratio: 1/0.5;
+  background-color: #eff7f5;
+}
+.latest-products-section .bottom-content figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.latest-products-section .middle-section {
+  height: 100%;
+}
+.latest-products-section .middle-section .middle-section-inner {
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+}
+
 .featured-products-carousel {
   margin-bottom: 1rem;
 }
@@ -12584,13 +12629,25 @@ ul.main-hero-section-features-inner li .content p {
 .featured-products-carousel .swiper-slide figure figcaption p.price {
   color: #FF0000;
 }
-.featured-products-carousel .swiper-slide figure figcaption a {
+.featured-products-carousel .swiper-slide figure figcaption a.title {
+  color: #000000;
+}
+.featured-products-carousel .swiper-slide figure figcaption a.title:hover {
+  color: #73d2ed;
+}
+.featured-products-carousel .swiper-slide figure figcaption a.main-button-primary {
   border: 1px solid #ebebeb;
   background-color: #FFFFFF;
   color: #000000;
 }
-.featured-products-carousel .swiper-slide:hover {
-  color: #ff9300;
+.featured-products-carousel .swiper-slide figure figcaption a.main-button-primary:hover {
+  background-color: #ff9300;
+}
+.featured-products-carousel .swiper-slide:hover img {
+  opacity: 0.3;
+}
+.featured-products-carousel .swiper-slide:hover a.main-button-primary {
+  background-color: #eff7f5;
 }
 
 @media (max-width: 992px) {
@@ -12625,10 +12682,10 @@ ul.main-hero-section-features-inner li .content p {
     border-right: 0;
   }
   ul.main-hero-section-features-inner li:first-child {
-    border-right: 2px solid #ebebeb;
+    border-right: 1px solid #ebebeb;
   }
   ul.main-hero-section-features-inner li:not(:nth-child(2n+1)) {
-    border-right: 2px solid #ebebeb;
+    border-right: 1px solid #ebebeb;
   }
 }
 @media (max-width: 768px) {
