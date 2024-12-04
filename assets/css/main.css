@@ -12874,6 +12874,12 @@ ul.main-hero-section-features-inner li .content p {
   ul.main-hero-section-features-inner li:not(:nth-child(2n+1)) {
     border-right: 1px solid #ebebeb;
   }
+  .top-content {
+    margin-top: 1rem;
+  }
+  .bottom-content {
+    margin-bottom: 1rem;
+  }
 }
 @media (max-width: 768px) {
   .main-nav-logo {
