@@ -12226,7 +12226,7 @@ a {
 
 .search-input {
   border-radius: 30px 0 0 30px;
-  width: 400px;
+  width: 300px;
 }
 .search-input:focus {
   outline: none;
@@ -12302,6 +12302,10 @@ a {
   color: #FFFFFF;
   font-weight: bold;
   font-size: 0.8rem;
+}
+
+.navbar-toggler {
+  background-color: #FFFFFF;
 }
 
 .main-hero-section figure {
@@ -12846,9 +12850,23 @@ ul.main-hero-section-features-inner li .content p {
   }
 }
 @media (max-width: 768px) {
+  .main-nav-logo {
+    display: flex !important;
+  }
   .md-none {
     margin-left: 0 !important;
     display: none;
+  }
+  .search-bar-nav {
+    display: none;
+  }
+  .search-box-sm {
+    margin-top: 1rem;
+    display: flex !important;
+    justify-content: center;
+  }
+  .search-input {
+    width: 180px;
   }
   li.user-ham-links {
     display: block !important;

@@ -1,4 +1,7 @@
 @media (max-width:992px){
+
+
+
     .lg-none{
         display: none;
     }
@@ -54,10 +57,29 @@
 
 
 @media (max-width:768px){
+    .main-nav-logo{
+        display: flex!important;
+    }
     .md-none{
         margin-left: 0!important;
         display: none;
     }
+    .search-bar-nav{
+        display: none; 
+    }
+
+
+    .search-box-sm{
+        margin-top: 1rem ;
+        display: flex!important;
+        justify-content: center;
+    }
+
+    .search-input{
+        width: 180px;
+    
+    } 
+
     li.user-ham-links{
         display: block!important;
     }
