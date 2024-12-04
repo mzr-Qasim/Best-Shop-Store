@@ -12886,6 +12886,9 @@ ul.main-hero-section-features-inner li .content p {
   .search-bar-nav {
     display: none;
   }
+  li.info-list {
+    margin-left: 0 !important;
+  }
   .search-box-sm {
     margin-top: 1rem;
     display: flex !important;
