@@ -12575,7 +12575,9 @@ ul.main-hero-section-features-inner li .content p {
 
 .left-section {
   height: 100%;
-  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 .left-section h3, .left-section .h3 {
   color: #FFFFFF;
@@ -12595,7 +12597,9 @@ ul.main-hero-section-features-inner li .content p {
 
 .right-section {
   height: 100%;
-  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 .right-section h3, .right-section .h3 {
   color: #FFFFFF;
@@ -12619,6 +12623,7 @@ ul.main-hero-section-features-inner li .content p {
 .top-content figure {
   position: relative;
   width: 100%;
+  height: 100%;
   aspect-ratio: 1.8/1;
 }
 .top-content figure img {
@@ -12654,6 +12659,7 @@ ul.main-hero-section-features-inner li .content p {
 .bottom-content figure {
   position: relative;
   width: 100%;
+  height: 100%;
   aspect-ratio: 1.8/1;
 }
 .bottom-content figure img {
@@ -12767,6 +12773,32 @@ ul.main-hero-section-features-inner li .content p {
   position: absolute;
   top: 0;
   left: 0;
+}
+.featured-products-carousel .swiper-slide figure .hover-actions {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+.featured-products-carousel .swiper-slide figure .hover-actions a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: #808080;
+  color: #FFFFFF;
+}
+.featured-products-carousel .swiper-slide figure .hover-actions a:not(:first-child) {
+  margin-left: 0.2rem;
+}
+.featured-products-carousel .swiper-slide figure .hover-actions a:hover {
+  background-color: #ff9300;
+}
+.featured-products-carousel .swiper-slide:hover .hover-actions {
+  display: flex;
 }
 .featured-products-carousel .swiper-slide:hover img {
   opacity: 0.3;
