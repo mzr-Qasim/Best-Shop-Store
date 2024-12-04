@@ -12575,9 +12575,7 @@ ul.main-hero-section-features-inner li .content p {
 
 .left-section {
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  margin-bottom: 1rem;
 }
 .left-section h3, .left-section .h3 {
   color: #FFFFFF;
@@ -12597,9 +12595,7 @@ ul.main-hero-section-features-inner li .content p {
 
 .right-section {
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  margin-bottom: 1rem;
 }
 .right-section h3, .right-section .h3 {
   color: #FFFFFF;
@@ -12618,7 +12614,7 @@ ul.main-hero-section-features-inner li .content p {
 }
 
 .top-content {
-  height: 48%;
+  height: 50%;
 }
 .top-content figure {
   position: relative;
@@ -12653,7 +12649,7 @@ ul.main-hero-section-features-inner li .content p {
 }
 
 .bottom-content {
-  height: 48%;
+  height: 50%;
 }
 .bottom-content figure {
   position: relative;
@@ -12765,13 +12761,18 @@ ul.main-hero-section-features-inner li .content p {
   color: #000000;
 }
 .featured-products-carousel .swiper-slide figure figcaption a.main-button-primary:hover {
-  background-color: #ff9300;
+  color: #FFFFFF;
+}
+.featured-products-carousel .swiper-slide figure .off-price {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 .featured-products-carousel .swiper-slide:hover img {
   opacity: 0.3;
 }
 .featured-products-carousel .swiper-slide:hover a.main-button-primary {
-  background-color: #eff7f5;
+  background-color: #ff9300;
 }
 
 @media (max-width: 992px) {
