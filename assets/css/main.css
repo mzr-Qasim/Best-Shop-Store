@@ -12844,12 +12844,6 @@ ul.main-hero-section-features-inner li .content p {
   ul.main-hero-section-features-inner li:not(:nth-child(2n+1)) {
     border-right: 1px solid #ebebeb;
   }
-  .top-content figure {
-    aspect-ratio: 2.5/1;
-  }
-  .bottom-content figure {
-    aspect-ratio: 2.5/1;
-  }
 }
 @media (max-width: 768px) {
   .md-none {
