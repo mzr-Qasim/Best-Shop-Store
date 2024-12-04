@@ -123,17 +123,47 @@ a{
 }
 
 
+.product-cat-next{
+    padding-right:0.5rem ;
+}
 
+
+.product-cat-prev{
+    padding-left:0.5rem ;
+}
 
 .product-cat-next,
 .product-cat-prev {
   position: absolute;
   width: 10px;
   height: 10px;
-  top: 50%;
+  top: 45%;
   transform: translateY(-50%);
   z-index: 100;
 }
+
+.feature-product-next{
+    padding-right:0.5rem ;
+}
+
+.feature-product-prev{
+    padding-left:0.5rem ;
+}
+
+.feature-product-next,
+.feature-product-prev {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 35%;
+  transform: translateY(-50%);
+  z-index: 100;
+}
+
+
+
+
+
 
 
 .section-title-theme{
