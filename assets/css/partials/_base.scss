@@ -123,22 +123,31 @@ a{
 }
 
 
+// .product-cat-next{
+//     padding-right:0.5rem ;
+// }
+
+
+// .product-cat-prev{
+//     padding-left:0.5rem ;
+// }
+
 .product-cat-next{
-    padding-right:0.5rem ;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 100%;
+    left: 100%;
+    transform: translate(-50%,-50%);
+    z-index: 100;
 }
-
-
-.product-cat-prev{
-    padding-left:0.5rem ;
-}
-
-.product-cat-next,
 .product-cat-prev {
   position: absolute;
   width: 10px;
   height: 10px;
-  top: 45%;
-  transform: translateY(-50%);
+  top: 100%;
+  left: 95%;
+  transform: translate(-50%,-50%);
   z-index: 100;
 }
 
