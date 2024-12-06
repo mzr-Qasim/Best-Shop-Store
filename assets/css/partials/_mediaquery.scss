@@ -114,6 +114,23 @@
         }
     }
 
+    .feature-product-prev {
+        width: 5px!important;
+        height: 5px!important;
+        left: 90%;
+    }
+    .feature-product-next{
+        width: 5px!important;
+        height: 5px!important;
+    }
+    .custom-next-btn:after {
+        font-size: 1rem;
+      }
+    
+    .custom-prev-btn:after {
+        font-size: 1rem;
+    }
+
 
 }
 
